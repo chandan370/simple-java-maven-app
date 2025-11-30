@@ -1,19 +1,20 @@
+name: hello-world
 
 on:
-   workflow_dispatch
+  workflow_dispatch
 
 jobs:
-   hello-world:
-   runs-on: ubuntu-latest
-   steps:
-      - name: Say Hello from bash
-        run: echo 'hello world'
+  hello-world:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Say Hello from bash
+      run: echo 'hello world'
 
-   hellow-world-python:
-   runs-on: ubuntu-latest
-   steps:
-      - name: Say Hello from Python
-        run: | 
-           print('hello world')
-        shell: python
+  hellow-world-python:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Say Hello from Python
+    run: | 
+       print('hello world')
+    shell: python
    
