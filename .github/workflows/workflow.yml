@@ -4,9 +4,9 @@ on:
 
 jobs:
    hello-world:
-   runs-on: ubuntu-ltest
+   runs-on: ubuntu-latest
    steps:
-      - name: Say Hello from Python
+      - name: Say Hello from bash
         run: echo 'hello world'
 
    hellow-world-python:
