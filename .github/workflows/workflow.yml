@@ -5,16 +5,16 @@ on:
 
 jobs:
   hello-world:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Say Hello from bash
-      run: echo 'hello world'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello from bash
+        run: echo 'hello world'
 
   hellow-world-python:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Say Hello from Python
-      run: | 
-        print('hello world')
-      shell: python
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello from Python
+        run: | 
+          print('hello world')
+        shell: python
    
